@@ -6,8 +6,13 @@ function pesquisar(){
     campoPesquisa = campoPesquisa.toLowerCase();
 
     // Verifica se a pesquisa tem apenas um caractere e se é um espaço em branco
-    if (campoPesquisa.length == 3 || campoPesquisa === " ") {
-        section.innerHTML = `<p class="descricao-meta">Pesquisa inválida: por favor, insira mais caracteres.</p>`;
+    if (campoPesquisa.length < 3) {
+        section.innerHTML = `<p class="descricao-meta">Pesquisa inválida: por favor, insira pelo menos 3 caracteres.</p>`;
+        return;
+    }
+
+    if (campoPesquisa === " ") {
+        section.innerHTML = `<p class="descricao-meta">Nenhum resultado encontrado</p>`;
         return;
     }
 
@@ -54,20 +59,14 @@ function pesquisar(){
     section.innerHTML = resultados;
 };
 
+// Obtém o campo de pesquisa e associa a função ao evento de keypress
+const campoPesquisa = document.getElementById('campo-pesquisa');
+campoPesquisa.addEventListener('keypress', function(event) {
+    if (event.key === 'Enter') {
+        pesquisar();
+    }
+});
+
 // Obtém o botão e associa a função ao evento de clique
 const botaoPesquisar = document.getElementById('botao-pesquisar');
 botaoPesquisar.addEventListener('click', pesquisar);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
