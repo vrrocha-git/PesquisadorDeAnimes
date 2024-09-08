@@ -130,8 +130,101 @@ export let dados = [
             estudio: "Bones",
             numEpisodios: "25",
             imagem: "https://example.com/mob_psycho_100.jpg"
+        },
+        {
+            titulo: "Fullmetal Alchemist",
+            descricao: "A primeira adaptação do mangá de Hiromu Arakawa, com algumas diferenças em relação à versão Brotherhood. Acompanha os irmãos Elric em sua jornada para recuperar seus corpos e encontrar a Pedra Filosofal.",
+            link: "https://pt.wikipedia.org/wiki/Fullmetal_Alchemist_(anime_de_2003)",
+            principaisPersonagens: "Edward Elric, Alphonse Elric, Roy Mustang, Riza Hawkeye",
+            criador: "Hiromu Arakawa",
+            genero: "Aventura, Fantasia, Drama",
+            anoLancamento: "2003",
+            estudio: "Bones",
+            numEpisodios: "51",
+            imagem: "https://example.com/fullmetal_alchemist_2003.jpg"
+        },
+        {
+            titulo: "Hunter x Hunter",
+            descricao: "Gon Freecss embarca em uma jornada perigosa para encontrar seu pai, um famoso Hunter. Ao longo do caminho, ele faz amigos, enfrenta desafios e descobre os segredos do mundo dos Hunters.",
+            link: "https://pt.wikipedia.org/wiki/Hunter_x_Hunter",
+            principaisPersonagens: "Gon Freecss, Killua Zoldyck, Leorio Pallladino, Kurapika",
+            criador: "Yoshihiro Togashi",
+            genero: "Aventura, Shounen",
+            anoLancamento: "1999",
+            estudio: "Nippon Animation",
+            numEpisodios: "62",
+            imagem: "https://example.com/hunter_x_hunter.jpg"
+        },
+        {
+            titulo: "JoJo's Bizarre Adventure",
+            descricao: "Uma saga épica que acompanha várias gerações da família Joestar, que possuem habilidades sobrenaturais conhecidas como Stands. Cada parte da história se concentra em um membro da família e suas aventuras únicas.",
+            link: "https://pt.wikipedia.org/wiki/JoJo's_Bizarre_Adventure",
+            principaisPersonagens: "Jonathan Joestar, Joseph Joestar, Jotaro Kujo",
+            criador: "Hirohiko Araki",
+            genero: "Ação, Aventura, Sobrenatural",
+            anoLancamento: "1987",
+            estudio: "David Production",
+            numEpisodios: "Variável por parte",
+            imagem: "https://example.com/jojo_bizarre_adventure.jpg"
+        },
+        {
+            titulo: "Yu Yu Hakusho",
+            descricao: "Yusuke Urameshi, um delinquente adolescente, é morto em um acidente e ganha uma segunda chance de viver como um detetive espiritual. Acompanhe suas aventuras enquanto ele luta contra demônios e protege o mundo humano.",
+            link: "https://pt.wikipedia.org/wiki/Yu_Yu_Hakusho",
+            principaisPersonagens: "Yusuke Urameshi, Kuwabara Kazuma, Hiei, Kurama",
+            criador: "Yoshihiro Togashi",
+            genero: "Ação, Sobrenatural, Shounen",
+            anoLancamento: "1992",
+            estudio: "Studio Pierrot",
+            numEpisodios: "112",
+            imagem: "https://example.com/yu_yu_hakusho.jpg"
+        },
+        {
+            titulo: "Bleach",
+            descricao: "Ichigo Kurosaki, um estudante do ensino médio, se torna um Shinigami substituto após um encontro com Rukia Kuchiki. Acompanhe suas aventuras no mundo dos espíritos enquanto ele luta contra Hollows e protege o mundo humano.",
+            link: "https://pt.wikipedia.org/wiki/Bleach",
+            principaisPersonagens: "Ichigo Kurosaki, Rukia Kuchiki, Renji Abarai",
+            criador: "Tite Kubo",
+            genero: "Ação, Shounen, Sobrenatural",
+            anoLancamento: "2004",
+            estudio: "Studio Pierrot",
+            numEpisodios: "366",
+            imagem: "https://example.com/bleach.jpg"
+        },
+        {
+            titulo: "Mob Psycho 100 II",
+            descricao: "Segunda temporada da popular série sobre Shigeo Kageyama, um adolescente com poderes psíquicos extraordinários. Nesta temporada, Mob enfrenta novos desafios e descobre mais sobre seus poderes e seu passado.",
+            link: "https://pt.wikipedia.org/wiki/Mob_Psycho_100_II",
+            principaisPersonagens: "Shigeo Kageyama (Mob), Reigen Arataka",
+            criador: "ONE",
+            genero: "Comédia, Sobrenatural, Ação",
+            anoLancamento: "2019",
+            estudio: "Bones",
+            numEpisodios: "13",
+            imagem: "https://example.com/mob_psycho_100_ii.jpg"
+        },
+        {
+            titulo: "Violet Evergarden",
+            descricao: "Em um mundo onde as Auto Memories Dolls podem escrever cartas com sentimentos, Violet Evergarden, uma ex-soldado, busca um novo propósito na vida enquanto aprende a entender o significado das emoções humanas.",
+            link: "https://pt.wikipedia.org/wiki/Violet_Evergarden",
+            principaisPersonagens: "Violet Evergarden",
+            criador: "Kana Akatsuki",
+            genero: "Drama, Fantasia, Slice of Life",
+            anoLancamento: "2018",
+            estudio: "Kyoto Animation",
+            numEpisodios: "13",
+            imagem: "https://example.com/violet_evergarden.jpg"
+        },
+        {
+            titulo: "Haikyuu!!",
+            descricao: "Shoyo Hinata, um garoto baixo, sonha em se tornar um jogador de vôlei de destaque. Ao entrar no ensino médio, ele se junta ao time de vôlei e começa a treinar para alcançar seus objetivos.",
+            link: "https://pt.wikipedia.org/wiki/Haikyuu!!",
+            principaisPersonagens: "Shoyo Hinata, Tobio Kageyama",
+            criador: "Haruichi Furudate",
+            genero: "Esportes, Shounen",
+            anoLancamento: "2014",
+            estudio: "Production I.G",
+            numEpisodios: "85",
+            imagem: "https://example.com/haikyuu.jpg"
         }
       ];
-
-
-
