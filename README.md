@@ -19,7 +19,7 @@ Esse projeto é um simples buscador de animes criado para ajudar os amantes de a
 
 **Como usar:**
 
-1. **Clone este repositório:** Use o comando `git clone https://[seu_repositorio]` para clonar o projeto para sua máquina.
+1. **Clone este repositório:** Use o comando `git clone https://[github.com/vrrocha-git/PesquisadorDeAnimes]` para clonar o projeto para sua máquina.
 2. **Abra o arquivo index.html:** Abra o arquivo `index.html` em seu navegador web.
 3. **Comece a pesquisar:** Divirta-se explorando o mundo dos animes!
 
@@ -39,10 +39,6 @@ Se você quiser contribuir para este projeto, fique à vontade para abrir um pul
 **Agradecimentos:**
 
 Agradeço a todos que contribuíram para este projeto!
-
-**Licença:**
-
-Este projeto está licenciado sob a licença [Escolha uma licença, por exemplo, MIT].
 
 **Contato:**
 * **Desenvolvedor:** Victor Rocha Silva
